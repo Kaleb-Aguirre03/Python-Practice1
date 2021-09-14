@@ -1,17 +1,21 @@
-#print title of list
-print("My Top 5 Movies:")
+def topFiveMovies():
+    #print the title of the list
+    print("My Top Five Movies:")
 
-#print 1st Movie
-print("1) Home Alone 2")
+    #pint the 1st movie
+    print("1) Home Alone 2")
 
-#print 2nd Movie
-print("2) Spider-man: Into the Spider-verse")
+    #print the 2nd movie
+    print("2) Spider-Man: Into the Spider-Verse")
 
-#print 3rd Movie
-print("3) Dragon Ball Super: Broly")
+    #print the 3rd movie
+    print("3) Dragon Ball Super: Broly")
 
-#print 4th Movie
-print("4) Dragon Ball Z: Fusion Reborn")
+    #print the 4th movie
+    print("4) Dragon Ball Z: Fusion Reborn")
 
-#print 5th Movie
-print("5) The Amazing Spider-Man 2")
+    #Print the 5th movie
+    print("5) The Amazing Spider-Man 2")
+
+#run the funtion topFiveMovies
+topFiveMovies()
