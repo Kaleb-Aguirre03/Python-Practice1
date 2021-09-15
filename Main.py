@@ -71,3 +71,9 @@ namesOfFam()
 
 #run the function statesIveBeenTo
 statesIveBeenTo()
+
+def myNameIs(name):
+    #print my name
+    print(name + " is my name")
+
+myNameIs("Kaleb")
