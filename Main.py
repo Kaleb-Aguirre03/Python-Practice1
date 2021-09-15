@@ -62,3 +62,12 @@ def statesIveBeenTo():
 
 #run the funtion topFiveMovies WOOOOOO
 topFiveMovies()
+
+#run the function topThreeSports
+topThreeSports()
+
+#run the funtion namesOfFam
+namesOfFam()
+
+#run the function statesIveBeenTo
+statesIveBeenTo()
