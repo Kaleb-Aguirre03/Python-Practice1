@@ -112,3 +112,13 @@ def addThreeNmbrs(x, y, z):
 
 #run the function addThreeNmbrs
 addThreeNmbrs(4, 18, 98)
+
+
+
+def madlib(a, b, c, d, e, f, g, h, i, j):
+    #create a madlib with multiple spots where a adjective or noun can be added
+    print("Star Wars is a " + a + b + " of " + c + " versus evil in a " + d + " far far away. There are " + e + " battles between " 
+    + f + g + " in " + h + " space and " + i + " duels with " + j + " called...")
+
+#run the function madlib
+madlib("space", " opra", "good", "galaxy", "galactic", "star", " fighters", "deep", "physical", "swords")
