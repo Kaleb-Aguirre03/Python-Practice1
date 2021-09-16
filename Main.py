@@ -66,7 +66,7 @@ topFiveMovies()
 #run the function topThreeSports
 topThreeSports()
 
-#run the funtion namesOfFam
+#run the function namesOfFam
 namesOfFam()
 
 #run the function statesIveBeenTo
@@ -77,3 +77,38 @@ def myNameIs(name):
     print(name + " is my name")
 
 myNameIs("Kaleb")
+
+def timesTwo(X):
+    #print something and multiply by two
+    print(X * 2)
+
+#run the function timesTwo
+timesTwo(2)
+
+def multTwoNmbrs(x, y):
+    #print two numbers and multiply them
+    print(x * y)
+
+#run the function multTwoNmbrs
+multTwoNmbrs(4, 7)
+
+def plusFive(a):
+    #print a number and add 5
+    print(a + 5)
+
+def divideByTwo(z):
+    #print a number and divide by two
+    print(z / 2)
+
+#run the function plusFive
+plusFive(3)
+
+#run the function divideByTwo
+divideByTwo(16)
+
+def addThreeNmbrs(x, y, z):
+    #print three numbers and add them together
+    print(x + y + z)
+
+#run the function addThreeNmbrs
+addThreeNmbrs(4, 18, 98)
