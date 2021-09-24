@@ -122,3 +122,24 @@ def madlib(a, b, c, d, e, f, g, h, i, j):
 
 #run the function madlib
 madlib("space", " opra", "good", "galaxy", "galactic", "star", " fighters", "deep", "physical", "swords")
+
+
+#create a function with an if statement
+def greaterThanTen (x):
+    if x > 10:
+        return "x is greater than 10"
+    
+    elif x == 10:
+        return "x equals 10"
+    
+    else:
+        return "x is not greater than 10"
+
+#print the function with a number greater than 10
+print (greaterThanTen (11))
+
+#print the function with a number less than 10
+print (greaterThanTen(9))
+
+#print the function with the number 10
+print (greaterThanTen(10))
