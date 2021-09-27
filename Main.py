@@ -124,7 +124,7 @@ def madlib(a, b, c, d, e, f, g, h, i, j):
 madlib("space", " opra", "good", "galaxy", "galactic", "star", " fighters", "deep", "physical", "swords")
 
 
-#create a function with an if statement
+
 def greaterThanTen (x):
     if x > 10:
         return "x is greater than 10"
@@ -143,3 +143,71 @@ print (greaterThanTen(9))
 
 #print the function with the number 10
 print (greaterThanTen(10))
+
+
+#create a function with an if statement
+def equalsTen(x):
+    if x == 10:
+        return "x is equal to 10!!!"
+
+    elif x > 10:
+        return "x is greater than 10!!!"
+
+    else:
+        return "x is less than 10!!!"
+
+print(equalsTen(29))
+
+
+def favColor(color):
+    if color == "green":
+        return "your favorite color is green"
+
+    elif color == "Green":
+        return "your favorite color is green"
+
+    else:
+        return "your favorite color is NOT green"
+
+
+
+
+
+def define(word):
+   
+    word = word.lower()
+
+    if word == "Sans":
+        return "A skeleton from the Underground who will dunk on you if your lOVE is too high. Also the brother of Papyrus and likes to use puns"
+
+    elif word == "Papyrus":
+        return "NYAHAHA"
+
+    elif word == "Gaster":
+        return "You have been playing too much Undertale and Deltarune"
+
+    elif word == "Spider-Man":
+        return "Hero of NYC with the powers of a spider. There are two different Spider-Men. Under the masks are Peter Parker and Miles Morales"
+    
+    elif word == "Goku":
+        return "A saiyan raised on earth. Has defeated many threats to the Earth and the Universe. Has the power of the Gods and Angels"
+
+    elif word == "Dog":
+        return "An animal that will love you forever (unlike a certain other one...)"
+    
+    elif word == "Monkey":
+        return "MONKE..."
+
+    elif word == "Saiyan":
+        return "Saiyans are a race that love the thrill of battle. They have the special ability to transform into many forms and obtain Zenkai Boosts. Saiyans have a monkey tail at birth. Only a few remain"
+
+    elif word == "Zenkai Boost":
+        return "A special ability of the Saiyan race. literally what doesn't kill them makes them stronger, much stronger."
+
+    elif word == "Dragon Ball":
+        return "A dragon ball is a ball that has 1 to 7 stars inside. When all 7 are collected, a dragon will appear that will grant anywhere from 1-3 wishes, depending on the impact of the wish. Dragon Balls are created by a race called Namekians."
+
+    else:
+        return "This word in not in this terrible dictionary. Go onto google for a real answer."
+
+print (define("dragon ball"))
