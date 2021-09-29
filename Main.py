@@ -17,6 +17,7 @@ def topFiveMovies():
     #Print the 5th movie
     print("5) The Amazing Spider-Man 2")
 
+
 def topThreeSports():
     #print the title of the list
     print("My Top Three Sports:")
@@ -29,6 +30,7 @@ def topThreeSports():
 
     #print the 3rd sport
     print("3) Basketball")
+
 
 def namesOfFam():
     #print the title of the list
@@ -45,6 +47,7 @@ def namesOfFam():
 
     #print the name of dog
     print("Dog: Teddy")
+
 
 def statesIveBeenTo():
     #print title of the list
@@ -72,11 +75,15 @@ namesOfFam()
 #run the function statesIveBeenTo
 statesIveBeenTo()
 
+#===================================================================================================================================
+
 def myNameIs(name):
     #print my name
     print(name + " is my name")
 
 myNameIs("Kaleb")
+
+#==================================================================================================================================
 
 def timesTwo(X):
     #print something and multiply by two
@@ -113,7 +120,7 @@ def addThreeNmbrs(x, y, z):
 #run the function addThreeNmbrs
 addThreeNmbrs(4, 18, 98)
 
-
+#====================================================================================================================================================
 
 def madlib(a, b, c, d, e, f, g, h, i, j):
     #create a madlib with multiple spots where a adjective or noun can be added
@@ -123,7 +130,7 @@ def madlib(a, b, c, d, e, f, g, h, i, j):
 #run the function madlib
 madlib("space", " opra", "good", "galaxy", "galactic", "star", " fighters", "deep", "physical", "swords")
 
-
+#====================================================================================================================================================
 
 def greaterThanTen (x):
     if x > 10:
@@ -169,8 +176,7 @@ def favColor(color):
     else:
         return "your favorite color is NOT green"
 
-
-
+#=================================================================================================================================================================================================================================================================
 
 #Create a dictionary with ten different words
 
@@ -211,5 +217,70 @@ def defineDict(word):
     else:
         return "This word in not in this terrible dictionary. Go onto google for a real answer."
 
-print(defineDict("Cat"))
+print(defineDict("Papyrus"))
+
+#===========================================================================================================================================================================================================================================================
+
+#modulus is very simillar to division
+print (99 % 100)
+
+print (12 % 10)
+
+#Absolute Value is NOT |#|
+print(abs(-256))
+
+#Define the function evenOrOdd()
+def evenOrOdd(x):
+    if x % 2 == 0:
+        return True
+
+    else:
+        return False
+
+print (evenOrOdd(4))
+
+#=============================================================================================================================================================================================================================================================
+
+#'and' is a Boolean Operator
+def twoBigNumbers(x, y):
+    if x > 10 and y > 10:
+        return True
+
+    else:
+        return False
+
+#'or' is a Boolean Operator
+def atLeastOneBigNumber(x, y):
+    if x > 10 or y > 10:
+        return True
+
+    else:
+        return False
+
+#'not' is a Boolean Operator. could also be written as -- if x > 10 or y <= 10: ...
+def OneBigNumber():
+    if x > 10 or not y > 10:
+        return True
+
+    else:
+        return False
+
+# You can have 'and' and 'or' operators in the name statement
+def andOrNumbers(x, y, z):
+    if x > 10 or not y > 10 and z == 5:
+        return True
+    
+    else:
+        return False
+
+#When using () the statement will be read in an order of operations style. 
+#If it was ...or not (y > 10 and z == 5)... then 'not' would be used on both y > 10 AND z == 5, 
+#instead of just y > 10.
+def andOrNumberOp(x, y, z):
+    if x > 10 or (not y > 10 and z == 5):
+        return True
+
+    else:
+        return False 
+
 
