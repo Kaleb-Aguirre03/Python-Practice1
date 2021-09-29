@@ -181,7 +181,9 @@ def favColor(color):
 #Create a dictionary with ten different words
 
 def defineDict(word):
-   
+
+    #word.upper() also exists, if it were to be used, then all of the 'words' should be in all caps like,
+    #if word == "SANS"
     word = word.lower()
 
     if word == "sans":
