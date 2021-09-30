@@ -285,4 +285,78 @@ def andOrNumberOp(x, y, z):
     else:
         return False 
 
+#======================================================================================================================================================
+
+#Inefficient way to print dog 7 times
+def dog(x):
+    print (x)
+    print (x)
+    print (x)
+    print (x)
+    print (x)
+    print (x)
+    print (x)
+    
+dog("dog")
+
+def function():
+    
+    # \/ Variable definition
+    count = 1
+    
+    # A variable that can change is necessary for a while loop, otherwise the loop would be inescapable
+    while count < 10:
+            print (count)
+            count = count + 1
+
+#print the while loop function
+function()
+
+def whileDog():
+
+    dog = 1
+
+    while dog <= 7:
+        print ("dog")
+        dog = dog + 1
+
+whileDog()
+
+
+def oneHundred ():
+
+    hundo = 1
+
+    while hundo <= 100:
+        print (hundo)
+        hundo = hundo + 1
+
+oneHundred ()
+
+#defined variables can go up by more than one
+def countByFives ():
+
+    cFive = 5
+
+    while cFive <= 100:
+        print (cFive)
+        cFive = cFive + 5
+
+countByFives()
+
+
+
+def tenTen():
+    
+    teny = 1
+    ten = 1
+    
+    while teny <= 10:
+        while ten <= 10:
+            print (ten)
+            ten = ten + 1
+        teny = teny + 1
+        ten = 1
+
+tenTen()
 
