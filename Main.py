@@ -360,3 +360,25 @@ def tenTen():
 
 tenTen()
 
+#=============================================================================================================================================================
+
+#p is position 0, o is 1, and so on
+mySting = "potato"
+#          012345
+
+# use len() in order to find the number of characters in the string
+def lastLetter(w):
+    return w[len(w) - 1]
+
+print(lastLetter("a;ldfj"))
+
+
+def spellingBee (w):
+
+    x = 0
+
+    while x < len(w):
+        print (w[x])
+        x = x + 1
+
+spellingBee ("Bliss")
