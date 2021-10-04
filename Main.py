@@ -367,6 +367,7 @@ mySting = "potato"
 #          012345
 
 # use len() in order to find the number of characters in the string
+#[] mean 'at position...'
 def lastLetter(w):
     return w[len(w) - 1]
 
@@ -382,3 +383,18 @@ def spellingBee (w):
         x = x + 1
 
 spellingBee ("Bliss")
+
+#==============================================================================================================================================================
+
+#Forloops are used much more often than whileloops
+
+#the variable 'i' is what is almost always used in for loops
+for i in range(1, 11):
+    print (i)
+
+#same as ...
+i = 1
+
+while i < 11:
+    print (i)
+    i = i + 1
